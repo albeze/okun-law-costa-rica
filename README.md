@@ -199,7 +199,3 @@ tidyverse.
 ```r
 source("scripts/okun_var.R")
 ```
-
-## Autor
-
-Alfonso Berríos. [LinkedIn] · [correo]
