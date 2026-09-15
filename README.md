@@ -152,19 +152,19 @@ explica en gran medida su propio comportamiento rezagado, con coeficientes de
 0.79 y 0.84. Los efectos cruzados en rezago, en cambio, son débiles en el VAR
 original.
 
-La ambigüedad entre el ADF y el KPSS merece atención. El ADF no rechaza la raíz
+La ambigüedad entre el ADF y el KPSS mes relevante. El ADF no rechaza la raíz
 unitaria, mientras que el KPSS no rechaza la estacionariedad al 5%. Este
-conflicto es común en muestras pequeñas con alta persistencia. El test de
-Johansen ofrece una salida: al no encontrar cointegración (18.30 &lt; 19.96 al 5%),
+conflicto es común en muestras pequeñas con alta persistencia. Para remediarlo
+se aplicó el test de Johansen que al no encontrar cointegración (18.30 &lt; 19.96 al 5%),
 la especificación en niveles del VAR queda justificada, aunque los resultados
 deben leerse con la cautela que impone una muestra de solo 59 observaciones.
 
 La evidencia más clara a favor de una relación de Okun es contemporánea. La
-prueba de causalidad instantánea rechaza la nula con comodidad (p &lt; 0.001), y
-la correlación entre residuos es de -0.49 en el modelo base. En una economía
-pequeña y abierta como la costarricense, resulta razonable que el crecimiento y
+prueba de causalidad instantánea rechaza la nula (p &lt; 0.001), y la correlación 
+entre residuos es de -0.49 en el modelo base. En una economía
+pequeña y abierta como la tica, resulta razonable que el crecimiento y
 el desempleo se muevan juntos dentro del mismo trimestre, en lugar de hacerlo
-con rezagos. La prueba de Granger confirma esta intuición: no hay predicción
+con rezagos. La prueba de Granger confirma la intuición de que no hay predicción
 de una variable sobre la otra en el tiempo.
 
 Sobre el modelo con dummy, el balance es favorable pero no limpio. El ajuste
@@ -175,7 +175,7 @@ Esto indica que la dummy de dos trimestres absorbe bien el pico pandémico pero
 no captura toda la dinámica del periodo. Una extensión natural sería probar una
 dummy más larga o combinarla con un orden de rezago mayor.
 
-El pronóstico del ARIMA debe leerse con cautela. Los intervalos son muy amplios,
+El pronóstico del ARIMA no parece muy robusto. Los intervalos son muy amplios,
 lo cual es esperable en una serie corta que incluye un choque extremo como el de
 2020. La selección automática y el criterio de AIC favorecen un AR(1) sobre el
 ARMA(1,1), dado que el coeficiente de medias móviles del segundo modelo no es
