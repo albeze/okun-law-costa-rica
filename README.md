@@ -199,3 +199,6 @@ tidyverse.
 ```r
 source("scripts/okun_var.R")
 ```
+### Disclaimer
+Este documento surge como herramienta para estudiar la materia de Econometría II en la Universidad Nacional de La Plata. La idea surgió de un [video del profesor Justin Eloriaga (https://www.youtube.com/watch?v=dXWy5nleaSg)]. Para la redacción y algunos tests adicionales hice uso de Kimi AI.
+
